@@ -1,0 +1,330 @@
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+
+  height: 100%;
+  margin: 0;
+}
+
+.first {
+  background-image: url("../images/bg-header-mobile.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.first, .second, .third, .forth, .fifth, .sixth{
+    width: 100%;
+    margin: 0 auto;
+}
+.pa{
+    font-weight: 600;
+    font-size: 26px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.image, .images{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.par{
+    font-weight: 400;
+    text-align: center;
+}
+
+.but{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 15px 25px;
+
+}
+
+.mac{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+
+.tod{
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.fifth .com{
+    display: block;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.thes{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+
+}
+
+.ioss{
+    background-color: hsl(171, 66%, 44%);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+
+.macs{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+
+footer{
+    background-color: #f8f9fa;
+    width: 100%;
+    padding-left: 1px;
+
+}
+
+.logos{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+h5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.hh5{
+    text-decoration: none;
+    color: black;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.attribution{
+    padding: 10px;
+}
+
+.hh5:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.media:hover {
+  filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(300%) hue-rotate(120deg);
+}
+
+.ios:hover, .mac:hover , .ioss:hover, .macs:hover{
+  filter: brightness(1.2);
+}
+
+
+@media(min-width: 800px) and (max-width: 1600px){
+  .first{
+    width: 100%;
+    margin: 0 auto;
+  background-image: url("../images/bg-header-desktop.png");
+  }
+  .logo{
+    display: block;
+    width: 7%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .but{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .par{
+    font-weight: 400;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.image{
+    display: block;
+    width: 40%;
+    margin: 0 0;
+}
+.second{
+    width: 57%;
+    margin: -407px -38px 100px auto;
+    padding-bottom: 46px;
+}
+.second .pa{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: auto;
+}
+.second .par{
+    font-size: 12px;
+    text-align: left;
+}
+.third{
+    padding-top: 15px;
+}
+.third .images{
+    width: 40%;
+}
+.forth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 99%
+}
+.page, .text, .eye{
+    width: 33%;
+}
+.eye{
+    position: relative;
+    top: 15px;
+}
+.eye .tod{
+    position: relative;
+    bottom: 4px;
+}
+.tod{
+    width: 12%;
+}
+.fifth{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap: 10px;
+}
+.fifth .com{
+    width: 7%;
+}
+.thes{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px 50px;
+  background-color: #f8f9fa; 
+}
+
+footer .logos{
+  height: 5%;
+  width: 5%;
+  margin: 0 0 auto;
+}
+
+footer .links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px; 
+}
+
+footer .links h5 {
+  margin: 0;
+}
+
+footer .links a {
+  text-decoration: none;
+  color: #555; 
+  font-size: 14px;
+}
+
+footer .social {
+  display: flex;
+  gap: 15px; 
+}
+
+footer .media {
+  width: 24px; 
+  height: 24px;
+}
+
+
+}
