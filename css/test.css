@@ -1,10 +1,10 @@
-*{
-    font-family: 'Bai Jamjuree', sans-serif;
-    box-sizing: border-box;
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  box-sizing: border-box;
 }
 
-html, body{
-
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -21,185 +21,187 @@ html, body{
   text-align: center;
 }
 
-
-
-.first, .second, .third, .forth, .fifth, .sixth{
-    width: 100%;
-    margin: 0 auto;
+.first,
+.second,
+.third,
+.forth,
+.fifth,
+.sixth {
+  width: 100%;
+  margin: 0 auto;
 }
-.pa{
-    font-weight: 600;
-    font-size: 26px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.logo{
-    display: block;
-    width: 35%;
-    margin: 0 auto;
-    padding-top: 10px;
+.pa {
+  font-weight: 600;
+  font-size: 26px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.image, .images{
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 25px;
+.logo {
+  display: block;
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
-.par{
-    font-weight: 400;
-    text-align: center;
+.image,
+.images {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 25px;
 }
 
-.but{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 100px;
-    margin: 0 auto;
-    
+.par {
+  font-weight: 400;
+  text-align: center;
 }
 
-.ios{
-    background-color: hsl(171, 66%, 44%);
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    padding: 15px 25px;
-
+.but {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  margin: 0 auto;
 }
 
-.mac{
-    text-decoration: none;
-    color: white;
-    background-color: hsl(233, 100%, 69%);
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    padding: 15px 25px;
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 15px 25px;
 }
 
-.tod{
-    display: block;
-    width: 15%;
-    margin: 0 auto;
-    padding-top: 40px;
+.mac {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 15px 25px;
 }
 
-.fifth .com{
-    display: block;
-    padding: 50px 0;
-    margin: 0 auto;
+.tod {
+  display: block;
+  width: 15%;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 
-.thes{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 40px;
-    padding-bottom: 100px;
-    margin: 0 auto;
-
+.fifth .com {
+  display: block;
+  padding: 50px 0;
+  margin: 0 auto;
 }
 
-.ioss{
-    background-color: hsl(171, 66%, 44%);
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    padding: 15px 25px;
+.thes {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  margin: 0 auto;
 }
 
-.macs{
-    text-decoration: none;
-    color: white;
-    background-color: hsl(233, 100%, 69%);
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    padding: 15px 25px;
+.ioss {
+  background-color: hsl(171, 66%, 44%);
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 15px 25px;
 }
 
-footer{
-    background-color: #f8f9fa;
-    width: 100%;
-    padding-left: 1px;
-
+.macs {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 15px 25px;
 }
 
-.logos{
-    width: 20%;
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
+footer {
+  background-color: #f8f9fa;
+  width: 100%;
+  padding-left: 1px;
 }
 
-h5{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
+.logos {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
-.hh5{
-    text-decoration: none;
-    color: black;
+h5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
-.social{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
-
+.hh5 {
+  text-decoration: none;
+  color: black;
 }
 
-.attribution{
-    padding: 10px;
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
-.hh5:hover{
-    color: hsl(171, 66%, 44%);
+.attribution {
+  padding: 10px;
+}
+
+.hh5:hover {
+  color: hsl(171, 66%, 44%);
 }
 
 .media:hover {
-  filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(300%) hue-rotate(120deg);
+  filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(300%)
+    hue-rotate(120deg);
 }
 
-.ios:hover, .mac:hover , .ioss:hover, .macs:hover{
+.ios:hover,
+.mac:hover,
+.ioss:hover,
+.macs:hover {
   filter: brightness(1.2);
 }
 
-
-@media(min-width: 800px) and (max-width: 1600px){
-  .first{
+@media (min-width: 800px) and (max-width: 1600px) {
+  .first {
     width: 100%;
     margin: 0 auto;
-  background-image: url("../images/bg-header-desktop.png");
+    background-image: url("../images/bg-header-desktop.png");
   }
-  .logo{
+  .logo {
     display: block;
     width: 7%;
     margin: 0 auto;
     padding-top: 20px;
   }
-  .but{
+  .but {
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -209,72 +211,73 @@ h5{
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    
   }
-  .par{
+  .par {
     font-weight: 400;
     text-align: center;
     width: 50%;
     margin: 0 auto;
-}
-.image{
+  }
+  .image {
     display: block;
     width: 40%;
     margin: 0 0;
-}
-.second{
-    width: 57%;
-    margin: -407px -38px 100px auto;
+  }
+  .second {
+    width: 50%;
+    margin: 0 auto;
     padding-bottom: 46px;
-}
-.second .pa{
+  }
+  .second .pa {
     font-size: 20px;
     text-align: center;
     display: block;
     width: auto;
-}
-.second .par{
+  }
+  .second .par {
     font-size: 12px;
     text-align: left;
-}
-.third{
+  }
+  .third {
     padding-top: 15px;
-}
-.third .images{
+  }
+  .third .images {
     width: 40%;
-}
-.forth{
+  }
+  .forth {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 99%
-}
-.page, .text, .eye{
+    width: 99%;
+  }
+  .page,
+  .text,
+  .eye {
     width: 33%;
-}
-.eye{
+  }
+  .eye {
     position: relative;
     top: 15px;
-}
-.eye .tod{
+  }
+  .eye .tod {
     position: relative;
     bottom: 4px;
-}
-.tod{
+  }
+  .tod {
     width: 12%;
-}
-.fifth{
+  }
+  .fifth {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
     gap: 10px;
-}
-.fifth .com{
+  }
+  .fifth .com {
     width: 7%;
-}
-.thes{
+  }
+  .thes {
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -284,47 +287,44 @@ h5{
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f8f9fa;
+  }
 
-}
-footer {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 20px 50px;
-  background-color: #f8f9fa; 
-}
+  footer .logos {
+    height: 5%;
+    width: 5%;
+    margin: 0 0 auto;
+  }
 
-footer .logos{
-  height: 5%;
-  width: 5%;
-  margin: 0 0 auto;
-}
+  footer .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
 
-footer .links {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px; 
-}
+  footer .links h5 {
+    margin: 0;
+  }
 
-footer .links h5 {
-  margin: 0;
-}
+  footer .links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+  }
 
-footer .links a {
-  text-decoration: none;
-  color: #555; 
-  font-size: 14px;
-}
+  footer .social {
+    display: flex;
+    gap: 15px;
+  }
 
-footer .social {
-  display: flex;
-  gap: 15px; 
-}
-
-footer .media {
-  width: 24px; 
-  height: 24px;
-}
-
-
+  footer .media {
+    width: 24px;
+    height: 24px;
+  }
 }
